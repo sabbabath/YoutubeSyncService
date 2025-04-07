@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeSyncService", "YoutubeSyncService\YoutubeSyncService.csproj", "{26315DE0-D24C-4B3A-8F0D-5064211C2E15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeSyncService", "YoutubeSyncService\YoutubeSyncService.csproj", "{26315DE0-D24C-4B3A-8F0D-5064211C2E15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeIntegration", "YoutubeIntegration\YoutubeIntegration.csproj", "{B7305CF5-CA0C-4ADF-B2E1-F8543C0D4918}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeIntegration", "YoutubeIntegration\YoutubeIntegration.csproj", "{B7305CF5-CA0C-4ADF-B2E1-F8543C0D4918}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyIntegration", "SpotifyIntegration\SpotifyIntegration.csproj", "{77E5BAF0-FF3D-4222-B46B-EBFCA1A87F03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpotifyIntegration", "SpotifyIntegration\SpotifyIntegration.csproj", "{77E5BAF0-FF3D-4222-B46B-EBFCA1A87F03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeSyncService.Data", "YoutubeSyncService.Data\YoutubeSyncService.Data.csproj", "{FF715D9D-2D0A-4DA4-9957-44F1658998F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{77E5BAF0-FF3D-4222-B46B-EBFCA1A87F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77E5BAF0-FF3D-4222-B46B-EBFCA1A87F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77E5BAF0-FF3D-4222-B46B-EBFCA1A87F03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF715D9D-2D0A-4DA4-9957-44F1658998F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF715D9D-2D0A-4DA4-9957-44F1658998F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF715D9D-2D0A-4DA4-9957-44F1658998F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF715D9D-2D0A-4DA4-9957-44F1658998F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
