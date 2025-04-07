@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeSyncService", "YoutubeSyncService\YoutubeSyncService.csproj", "{26315DE0-D24C-4B3A-8F0D-5064211C2E15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeIntegration", "YoutubeIntegration\YoutubeIntegration.csproj", "{B7305CF5-CA0C-4ADF-B2E1-F8543C0D4918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyIntegration", "SpotifyIntegration\SpotifyIntegration.csproj", "{77E5BAF0-FF3D-4222-B46B-EBFCA1A87F03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26315DE0-D24C-4B3A-8F0D-5064211C2E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26315DE0-D24C-4B3A-8F0D-5064211C2E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26315DE0-D24C-4B3A-8F0D-5064211C2E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26315DE0-D24C-4B3A-8F0D-5064211C2E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7305CF5-CA0C-4ADF-B2E1-F8543C0D4918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7305CF5-CA0C-4ADF-B2E1-F8543C0D4918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7305CF5-CA0C-4ADF-B2E1-F8543C0D4918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7305CF5-CA0C-4ADF-B2E1-F8543C0D4918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E5BAF0-FF3D-4222-B46B-EBFCA1A87F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E5BAF0-FF3D-4222-B46B-EBFCA1A87F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E5BAF0-FF3D-4222-B46B-EBFCA1A87F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E5BAF0-FF3D-4222-B46B-EBFCA1A87F03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64F34D90-763E-4978-9AC4-905F10711F6E}
+	EndGlobalSection
+EndGlobal
