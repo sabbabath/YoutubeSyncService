@@ -10,8 +10,8 @@ namespace YoutubeSyncService.Data.Models
     [Table("Users")]
     public class cDbUser : cDbBaseEntity
     {
-        public string Username { get; set; }
+        public required string Username { get; set; }
 
-        public string Email { get; set; }
+        public required string Email { get; set; }
     }
 }
