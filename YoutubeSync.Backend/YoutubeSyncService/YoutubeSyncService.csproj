@@ -11,4 +11,9 @@
     <Folder Include="Contracts\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SpotifyIntegration\SpotifyIntegration.csproj" />
+    <ProjectReference Include="..\YoutubeIntegration\YoutubeIntegration.csproj" />
+  </ItemGroup>
+
 </Project>
