@@ -1,6 +1,6 @@
 ﻿namespace YoutubeIntegration
 {
-    class Program
+    public class Program
     {
         public async Task Start()
         {
