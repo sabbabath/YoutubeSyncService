@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SpotifyIntegration.Models
+﻿namespace SpotifyIntegration.Models
 {
     public class cSpotifyUrls
     {
